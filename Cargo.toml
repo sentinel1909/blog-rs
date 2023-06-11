@@ -8,10 +8,6 @@ publish = false
 name = "blog-rs"
 path = "src/bin/main.rs"
 
-[[bin]]
-name = "markd"
-path = "src/bin/markd.rs"
-
 [lib]
 path = "src/lib/lib.rs"
 

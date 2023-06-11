@@ -23,8 +23,6 @@ pub async fn post(
 
     for i in 0..state.len() {
         if query_title == state[i].post_title {
-            // We found one so mutate the template variable and
-            // populate it with the post that the user requested
             template = PostTemplate {
                 post_title: &state[i].post_title,
                 post_date: state[i].post_date.to_string(),
